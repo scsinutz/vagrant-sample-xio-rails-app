@@ -14,7 +14,7 @@ sed -i /etc/salt/minion -e 's/#file_client: remote/file_client: local/'
 apt-get install git -y
 
 #clone salt states
-git clone https://github.com/scsinutz/saltstack-sample-xio-rails-app.git /srv/
+git clone https://github.com/scsinutz/salt-stack-sample-xio-rails-app.git /srv/
 
 #remove dist version of Ruby (1.9.x) since we'll be installing Ruby 2.1 with rvm
 apt-get purge ruby -y
